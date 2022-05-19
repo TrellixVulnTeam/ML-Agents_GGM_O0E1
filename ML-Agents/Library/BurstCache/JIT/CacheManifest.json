@@ -1,0 +1,2242 @@
+{
+  "BurstVersion": "685f0c65-f2a4-48a7-8ba2-734aa17d6be3",
+  "Assemblies": [
+    {
+      "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-19T08:48:42.9005637Z"
+    },
+    {
+      "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
+      "LastWriteTime": "2022-02-14T23:34:34Z"
+    },
+    {
+      "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "LastWriteTime": "2022-02-14T23:34:34Z"
+    },
+    {
+      "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-02-14T23:40:38Z"
+    },
+    {
+      "FullName": "Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-19T08:48:45.3113161Z"
+    },
+    {
+      "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-05-19T08:48:44.9100894Z"
+    },
+    {
+      "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-02-14T23:34:34Z"
+    }
+  ],
+  "Functions": [
+    {
+      "FullName": "Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoGetCSRTrampoline()",
+      "ModuleOptionsHash": 15221144590354301703,
+      "ModuleHash": "96dad15239fbb48d28bda07b3eecf0b9",
+      "LinkName": "CDCA4A5193BE5947",
+      "AssemblyDependencyIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "FullName": "Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 15221144590354301703,
+      "ModuleHash": "e0103f38a3cf720b8a3714a43ea7a909",
+      "LinkName": "801E9A000BB37B05",
+      "AssemblyDependencyIndices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Barracuda.BurstCPUOps+CopyStrideJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+CopyStrideJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "32c265ef36989de5a5a3df8f9ad90465",
+      "LinkName": "690ED32C264E9AF3",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Barracuda.BurstCPUOps+MemFreeJob, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+MemFreeJob&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "f4991f9e2608b5c5c93c23ed6c366038",
+      "LinkName": "762F76951C50D82E",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Barracuda.BurstCPUOps+CopyJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+CopyJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "88ed130d180c83c7eedbbafb633242b1",
+      "LinkName": "7CC459C10193068F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Barracuda.BurstCPUOps+CopyStrideJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+CopyStrideJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e4f2174038dee02d059bbd050d1eff42",
+      "LinkName": "048B1F2D8B8A60A4",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        5,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Barracuda.BurstCPUOps+VectorBroadcastJob, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+VectorBroadcastJob&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "8eafe7cefd218dbf54b610f3b20f9832",
+      "LinkName": "D5A0000F5DA19291",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Barracuda.BurstCPUOps+CopyJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+CopyJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "2655147be65e7991365c617e7c36cd63",
+      "LinkName": "28E74CFB7D7E2093",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        6,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Barracuda.BurstCPUOps+ZeroBroadcastJob, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ZeroBroadcastJob&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "1627bdce92704950792df1eb0e228abb",
+      "LinkName": "910D00C108C9ACD0",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ReluJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ReluJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "33ae3ecebb797bdd64fdf22acb229e73",
+      "LinkName": "1CB92D754901F53A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Relu6Job_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Relu6Job_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "c87c48bfdd56c21c69ad116c1677bd82",
+      "LinkName": "9CA22C2CA02761A2",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+LeakyReluJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+LeakyReluJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "704eb8025e022ea27ad13521e93d33c7",
+      "LinkName": "B2322FD9DF21FC31",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+TanhJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+TanhJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "d3931700166f9d661586bedae9786e30",
+      "LinkName": "FDBCCD89F6EE0A3B",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SoftplusJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SoftplusJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e1a5ad59a3f1cb93b698da30422f155b",
+      "LinkName": "1EBA0744B20850D9",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SigmoidJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SigmoidJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "3bacaabf7be8b481690f9acd2a3c2cc4",
+      "LinkName": "20F685D3F9A43764",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AbsJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AbsJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "9e48b499a8f3d0d5b5ed200903e779a8",
+      "LinkName": "DE83A657F682414A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+NegJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+NegJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "a1f7cfe4a2e423bf05dbc34ee8f83f0b",
+      "LinkName": "11CE11A7AB30135A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+CeilJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+CeilJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "4a3ecda03963b26677ce11f2c107bd82",
+      "LinkName": "168A1ACCFECBB0D0",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+FloorJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+FloorJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "fefdfa0bcb538ed271923a0dfb0ad334",
+      "LinkName": "E2215CF74571C94A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+RoundJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+RoundJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "b24851bab962e88b7d6e13d637683692",
+      "LinkName": "1552214DEFC159FB",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ReciprocalJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ReciprocalJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "db71ff54de96035cc28d39dd6bee8b3a",
+      "LinkName": "D5FF1034BC2E6FD7",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ExpJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ExpJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "76307c8aafcdc24db31c49322a45c47e",
+      "LinkName": "D34F6240368FC562",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+LogJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+LogJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "1932fdba6923bb10fb84ea4426c0d948",
+      "LinkName": "C3B49E76A188DCBA",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SqrtJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SqrtJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e0ca74fef8532cc7e9cb122f6f1bf20a",
+      "LinkName": "A646EA2605F57E0F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AcosJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AcosJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "27a39d178adbfd2695b1821eb398e956",
+      "LinkName": "55F174CC1405249A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AcoshJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AcoshJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "0ef546f9152709736677db6b03a6825b",
+      "LinkName": "59ABB74CB49F01C8",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AsinJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AsinJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "635666427b32a740610bd66b759412ca",
+      "LinkName": "A79FDCF00D431939",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AsinhJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AsinhJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "582f10e039752f36c853014bf88ea7b0",
+      "LinkName": "6C10B2E783613C79",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AtanJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AtanJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "13110b104da4e3912f6ba41e8d94417f",
+      "LinkName": "DF894661B348825B",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AtanhJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AtanhJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "44b5342b8ef7a22c2b68fb287cc5166e",
+      "LinkName": "0F815C8E926C45CC",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+CosJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+CosJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "9d8ba57a0eaf3b4418874cc28d50d2f5",
+      "LinkName": "E09600E0A25FDE9E",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+CoshJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+CoshJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "c958fb3193898e5702b9beaf9a645616",
+      "LinkName": "D1975D1094929A4A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SinJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SinJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "97ea8c47b7b9c35f2d1781870b659293",
+      "LinkName": "0FF28961FD30700E",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SinhJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SinhJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "3b309577391caab329bd6396d170f654",
+      "LinkName": "CF0FBCC0E06630C4",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+TanJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+TanJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "4318525820f91a2a31936630e051785a",
+      "LinkName": "BFA72DF0DE2565CC",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+HardSigmoidJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+HardSigmoidJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "72af7b1cb2a9dbf4bf5fdad7538977e3",
+      "LinkName": "86958E05D065F451",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ClipJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ClipJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "2880339e78461e78fbc39ab7632cc122",
+      "LinkName": "192924B01A91A28A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+PowJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+PowJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "bf82f534c3614a4c592b20b2e560e4e2",
+      "LinkName": "C8418D8D357A2AAB",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ErfJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ErfJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "61354051b6f1535724c57a4dacdf921b",
+      "LinkName": "FFF00EEF51914BB2",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+EluJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+EluJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "d8eeb7cab5a88bde5fdbeb87c3891753",
+      "LinkName": "BEEDC09A4A632B6C",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SeluJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SeluJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "64133bba8d6892bfc6a955b139c5dae7",
+      "LinkName": "E260A6A0C6E52A52",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+PReluJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+PReluJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "ae38f1b2aa36cdddc552dfc311b2b30b",
+      "LinkName": "F8670E280DBD048A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SwishJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SwishJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "5021770607bff1d878621ad7ae6cfae4",
+      "LinkName": "19F5B69CEB328841",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ReluJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ReluJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "4af6dbe0e2b8b3ad2a7950b84dff1d8f",
+      "LinkName": "1148685D917EFB90",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Relu6Job_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Relu6Job_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e9ca5f05e2ea1ec31fea0c9bb753ee76",
+      "LinkName": "A5715A3BA7D2C8DD",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+LeakyReluJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+LeakyReluJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "bf44954aa4732fdacff762252283aff7",
+      "LinkName": "9A03725E6E8F00AB",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+TanhJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+TanhJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "5bd3132e32b362233007fcf4ebc7e502",
+      "LinkName": "8C9ADC0ABA7C4373",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SoftplusJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SoftplusJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "c8ae513e90c2d06968f0484f7c376320",
+      "LinkName": "551CA5676069BAEE",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SigmoidJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SigmoidJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "fb3faf024d61c40cef3113609597a935",
+      "LinkName": "95F1DC3F4EF0A6D3",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AbsJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AbsJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e410413ce2277a5372ce6309aeb6edd2",
+      "LinkName": "D6FCE0DB08021342",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+NegJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+NegJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "a334680f475d6568e875ef5c6e00fa04",
+      "LinkName": "0AF72FE5440A2E18",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+CeilJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+CeilJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "809fd685847de9b61f80f9b08ecd6616",
+      "LinkName": "8A90106440EB0334",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+FloorJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+FloorJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "34b68321afc5cbe5e184ea7d3fde2dad",
+      "LinkName": "472B4D6D8B4795CC",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+RoundJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+RoundJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "584d0bbd140db895df10c42718f7b9e2",
+      "LinkName": "355DBCD943360FEF",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ReciprocalJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ReciprocalJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "6c417b15eac491ff522762bf834605bd",
+      "LinkName": "F41F21DA61C784E5",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ExpJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ExpJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "f65f211f20f3c9db145a4f73d373b7fb",
+      "LinkName": "4CDB9D1F5D346B95",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+LogJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+LogJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "43b62198df19e683a07cb5d63bbd0f05",
+      "LinkName": "D1FB8E89600D7643",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SqrtJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SqrtJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "c24204bf95734225bae16a9b992af310",
+      "LinkName": "39475E0B167FCD13",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AcosJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AcosJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "f4d631b3ccd9790861a355750f1edbbc",
+      "LinkName": "E76381D37C5712FD",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AcoshJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AcoshJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "f372a892fa0055060640ad6b0fb3d00f",
+      "LinkName": "F0C1C11EE16114E4",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AsinJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AsinJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "db2ce39601ee4c91f0e224635314d684",
+      "LinkName": "3D632D1C8C48B013",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AsinhJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AsinhJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "173462b647d8eeebcbd33f7582f5fc69",
+      "LinkName": "FEDC75B8C613C18F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AtanJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AtanJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "6fafe45146fa3c1215b53b7dc1dd6d24",
+      "LinkName": "9EE6B36497175E9F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AtanhJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AtanhJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "5d9d32a217b1258474142a94f4cc0489",
+      "LinkName": "481177B132CBE4AB",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+CosJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+CosJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "b20e06c993209f7002fd845ccf57acb2",
+      "LinkName": "3D1B089D8E485B01",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+CoshJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+CoshJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "3b6e7e487833cf04bb3a900d5b7a8301",
+      "LinkName": "6B02B1E486FFC4A2",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SinJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SinJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "9e892e4d034e9e1bfa2e92201a3c8a8b",
+      "LinkName": "30D51B1F401938BE",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SinhJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SinhJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "2f0daefb48804643c5d8450f08a9e2db",
+      "LinkName": "95BAB430883E8965",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+TanJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+TanJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "3a142d2ebb5d6c98501fb8e896b18657",
+      "LinkName": "9FE90655BBAC1729",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+HardSigmoidJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+HardSigmoidJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "55347bb73d715a60bbbdcf58efafe349",
+      "LinkName": "8C9E774BA9233CD7",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ClipJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ClipJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "660bb30b291fe85512395d6021990554",
+      "LinkName": "DDF5685DBF785D13",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+PowJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+PowJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "7c5c17d5d4f2e9793008bfaab607c8a9",
+      "LinkName": "C97E412AFFE2B1D0",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ErfJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ErfJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "42c7f7aa88ed36f9cdacdbf0271149a9",
+      "LinkName": "2B7C73BA22F581F3",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+EluJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+EluJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "1996cd78ccf3fd36afff4c3e8742b84c",
+      "LinkName": "54AF3DB05380CE75",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SeluJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SeluJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "98575c28ff0b55d8b4caccbef8045dca",
+      "LinkName": "DA4F4867D95AAAC9",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+PReluJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+PReluJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "4e6e219c77871b622320f7364753b84c",
+      "LinkName": "3E24EDC35C66510E",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SwishJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SwishJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "5e7403bb995cd06941bd43d1b1528590",
+      "LinkName": "499189340CB12FCA",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+VectorBroadcastScaleBiasJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+VectorBroadcastScaleBiasJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "8ca10749b700f61113612b70c2127623",
+      "LinkName": "1853E22C2DD0CEAD",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastAddJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastAddJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "2bd269369d0eb900689531f4d238a462",
+      "LinkName": "7A3300B826F8F474",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastAddJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastAddJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "11c91672a0ac8f024dc9cc82cd480048",
+      "LinkName": "104F649D6E2F74F0",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastMulJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastMulJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "6241ac352c34078616795ed2ca04f0ea",
+      "LinkName": "A7AE8F6DD32BA51B",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastMulJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastMulJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "f35f98f31d7ce87dc3c803978a31b599",
+      "LinkName": "BD7396AB4C410E3A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastDivJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastDivJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "3db58425c9e8b1e086d0b26bb9f8987d",
+      "LinkName": "4681DDF9131F9318",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastDivJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastDivJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "301f46db6e13eba36ea7d7e2611619d9",
+      "LinkName": "F8CB443F40674A6B",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastMinJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastMinJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "dd8d3a887bbd8229fffca30ac5e0510e",
+      "LinkName": "C3AF304AF015F48C",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastMinJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastMinJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "0815ce156f61e2c0ea853ab22f70205a",
+      "LinkName": "2D799CC2C8C2682F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastMaxJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastMaxJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "836beda6dfc5fda80df009fd2cf8484f",
+      "LinkName": "939457DD385C410F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastMaxJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastMaxJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "08e8db5d39ad735699482184160f4305",
+      "LinkName": "A39930F906218F61",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastPowJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastPowJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "b1d843191b94ad9e7d918d112eec5a58",
+      "LinkName": "9CAA4B2567F0B9B3",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastPowJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastPowJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e9d049b31e755df243f18c55896942ee",
+      "LinkName": "E0F0B510F539D114",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwiseAddJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwiseAddJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "bbffd086cb25b7a25d6356a35dcc3989",
+      "LinkName": "D02E870A94D44691",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwiseMulJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwiseMulJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "05c08bec656928b50afe1de4117ea400",
+      "LinkName": "369D32948E74F788",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwiseDivJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwiseDivJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "afef60d455c0d3a852a0f5416648aa54",
+      "LinkName": "EE52A6498AB9F111",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwiseMinJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwiseMinJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e1ba34a4a1bc515e252e23c0e5a8ae82",
+      "LinkName": "36520E2A767F2F5D",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwiseMaxJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwiseMaxJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "4ee803a7da0f661d15efb2c09b7b9bd5",
+      "LinkName": "A7A43CBCAAF36795",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwisePowJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwisePowJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "78ca4b4978cd9f9c1992d0d5dfb090cb",
+      "LinkName": "04A5E500787CA702",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+VectorBroadcastScaleBiasJob_ActAsFloat_WeightAsHalf, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+VectorBroadcastScaleBiasJob_ActAsFloat_WeightAsHalf&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "7b7e85036113b52d81f1108d98ef1ad2",
+      "LinkName": "5C6784C509B56D68",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+VectorBroadcastScaleBiasJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+VectorBroadcastScaleBiasJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "89288c9f2bc1a5eaa90a35c5b3bb2d1f",
+      "LinkName": "2B8C562ACC03CDEA",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastAddJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastAddJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e1f9b3715f942cc40d83b11d63dc4e90",
+      "LinkName": "366071C1ADEB7A67",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastAddJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastAddJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "79aff6c14a3da781a1d9a407d90aec87",
+      "LinkName": "DFAC981DDC46E2F6",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastMulJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastMulJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "c89b65c90deb8419070597e73854c0b9",
+      "LinkName": "9F6084A2FE8D8ABD",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastMulJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastMulJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "755b023be859bb4b71908f86b8f1e688",
+      "LinkName": "B1D83169F7F7B332",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastDivJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastDivJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "0854ff31e2caacb9882e0af20c14047e",
+      "LinkName": "0F698847E3C4523C",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastDivJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastDivJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "d589e53b9ef694e0e85595be7319cdd7",
+      "LinkName": "723435627CF24507",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastMinJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastMinJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "1a42c4e8c2c099d053c6daf83aa40339",
+      "LinkName": "C7064F5A0D1872FC",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastMinJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastMinJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "ad18c4ff09d558071b53df5bdf92b028",
+      "LinkName": "D19EF97676EF49E5",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastMaxJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastMaxJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "94ce7972370e9f84e1ab5b0b480a7c8e",
+      "LinkName": "1F6EE47F50C7AE3E",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastMaxJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastMaxJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "caf012fa96f8842b29594b4b121484c9",
+      "LinkName": "DA6785ACEE899B1B",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ScalarBroadcastPowJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ScalarBroadcastPowJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "a7d3300243c2ec815fd66201972091f7",
+      "LinkName": "CD57F8861C649D33",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+BroadcastPowJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+BroadcastPowJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e60151414db3d2fa5881e1bda7e7e336",
+      "LinkName": "E992DAD797EF340C",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwiseAddJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwiseAddJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "3c0fbed86aec02c53bf8de3e286acabb",
+      "LinkName": "A6FDBAAB20999640",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwiseMulJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwiseMulJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "d3d8575955cd2605321a093be6a81ccc",
+      "LinkName": "6B54C2535782F505",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwiseDivJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwiseDivJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "4cb6a901db60d3079431cbaa1479e32a",
+      "LinkName": "C68235F14C6F0BB1",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwiseMinJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwiseMinJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "4ebe9d5ccd9cd07e38414c67f31f185a",
+      "LinkName": "257839C8C7E082F7",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwiseMaxJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwiseMaxJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "a245d9191ae21ad628a8c92c91f1779d",
+      "LinkName": "9879F3AB584029F0",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ElementwisePowJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ElementwisePowJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "f8a5f1a59bb0024a1c6bdc5cdd03dc41",
+      "LinkName": "BD0342DF209D6FE4",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+DepthwiseConv2DJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+DepthwiseConv2DJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "26bf7c73d3f47fc399c0d0a18b697055",
+      "LinkName": "2C60103AB900719F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Dense3Job_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Dense3Job_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "1add5aedc1db468790289fa9482b97fd",
+      "LinkName": "F2806662400AE355",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+DepthwiseConv2DJob_ActAsFloat_WeightAsHalf, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+DepthwiseConv2DJob_ActAsFloat_WeightAsHalf&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "02ca0d879dd976e7e2e44410ee7caeae",
+      "LinkName": "C24319ED3EBBA7DC",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Dense3Job_ActAsFloat_WeightAsHalf, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Dense3Job_ActAsFloat_WeightAsHalf&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "2994ec43b609e81625e6f14b231e8357",
+      "LinkName": "E3D7CE395ADB1DA0",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+DepthwiseConv2DJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+DepthwiseConv2DJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "1c02637035684d9ce960f969fcfe7a88",
+      "LinkName": "FE18D0884166CC1B",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Dense3Job_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Dense3Job_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "e8bd301b80f127a287d4d0654a52ec73",
+      "LinkName": "558A356417702026",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+GenericSliceJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+GenericSliceJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "5392ab490abe37aff88c16d7355a93cf",
+      "LinkName": "7123BD2F8BBC9132",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+GenericStridedSliceJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+GenericStridedSliceJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "4da3157338f7a29213615eedd8e5c88a",
+      "LinkName": "C2CCBC5200DB422C",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Border2DJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Border2DJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "b042b9cdb8871780c925c10c0ced9441",
+      "LinkName": "558C4F3BE80BCA5F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+TransposeJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+TransposeJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "6760422d3067fd626539352c25c9358a",
+      "LinkName": "0EFAF048A34AE528",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Pad2DEdgeJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Pad2DEdgeJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "7a0905c6bb72ba0955583f6ca12fc795",
+      "LinkName": "CE8F124CEE804858",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Pad2DReflectJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Pad2DReflectJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "2422969d0667bc155c0374c967bd05c9",
+      "LinkName": "C1AE6947814B1796",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Pad2DSymmetricJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Pad2DSymmetricJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "8b4428fdd966030cec43b0a7b01cc428",
+      "LinkName": "2F3C59B6CEA93A7A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+TileJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+TileJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "d707accdf188eab43766263116b2dd64",
+      "LinkName": "B0CD67821D830975",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+GatherJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+GatherJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "b9cba8f72d5e990cd706db6716b356b0",
+      "LinkName": "CE0832022F69003A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+OneHotJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+OneHotJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "45c92853fe2c3b89c90153422869616d",
+      "LinkName": "1E42D8AADB1F363A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+RandomNormalJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+RandomNormalJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "7615165e9b6913cdf55123af9456ae7c",
+      "LinkName": "38E12BC2B00D627F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+RandomUniformJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+RandomUniformJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "f8280935cabdee2bc5888b0853e77383",
+      "LinkName": "100D84B2D33FA49D",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+GenericSliceJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+GenericSliceJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "0b4d6b2d660ee9296e042e1a3c36a1ba",
+      "LinkName": "20F065278F64F55D",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+GenericStridedSliceJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+GenericStridedSliceJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "620e32d9b67eec68d386a48e28d4d694",
+      "LinkName": "24C8E6967FC68823",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Border2DJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Border2DJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "50472f4ed291321825d28a2a2b5059ce",
+      "LinkName": "81F1416E94C176C3",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+TransposeJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+TransposeJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "fb91c8171ff084441403a82e015c2657",
+      "LinkName": "F60BCA8E9A6E1424",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Pad2DEdgeJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Pad2DEdgeJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "0c4d754ae09f824dfb287358646e6480",
+      "LinkName": "6F194DC3358DC367",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Pad2DReflectJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Pad2DReflectJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "dde7fbe48ea84928df358a19650c128a",
+      "LinkName": "5871ED34E742AB1C",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Pad2DSymmetricJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Pad2DSymmetricJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "75942f5dacfc6493fed3d4076e278776",
+      "LinkName": "19D31AD8C2A49DF2",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+TileJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+TileJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "14153e9d3755b603d5542432602b021f",
+      "LinkName": "194AEBB90736A879",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+GatherJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+GatherJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "9fe2bfc993eb1b0074dfc415ac457953",
+      "LinkName": "A5A3A20A9FEDBF1C",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+OneHotJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+OneHotJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "102719e95d0040e928f265c9260ba679",
+      "LinkName": "8868D5E0B76A460D",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+RandomNormalJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+RandomNormalJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "db3b6d22199387e1d8ca59df6969a745",
+      "LinkName": "FA6521B2CA311CA8",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+RandomUniformJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+RandomUniformJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "f18e916b8f71eab652b20535de5a46bf",
+      "LinkName": "73873B1C3F6A2B19",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ReduceMaxJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ReduceMaxJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "9211e5036c3fcdf2359819c905954bda",
+      "LinkName": "36D608A95D590BBD",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ReduceSumJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ReduceSumJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "869e5f7d4f34879d74e6b78495bf42e7",
+      "LinkName": "4DC5EE46D8B52582",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ReduceMeanJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ReduceMeanJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "6b1dfb18bc5b04f025cac84f4aec06b7",
+      "LinkName": "930296AF26031104",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ExpBiasReduceJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ExpBiasReduceJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "c3e0b8fe3e6d7b1797656745d3e86a45",
+      "LinkName": "119539F644250737",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SoftmaxEndJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SoftmaxEndJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "55c68649a3f9f50d9946134996704246",
+      "LinkName": "4586C41C5B07940C",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+LogSoftmaxEndJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+LogSoftmaxEndJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "1c5cc6bc25c969591f7df94fd51ebd21",
+      "LinkName": "416E8C38B5270E9A",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+MaxPool2DJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+MaxPool2DJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "3174d5f6c2142f0d03d3d8f20954b107",
+      "LinkName": "08E4A633D4B1BD8E",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AvgPool2DJob_Full_Float, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AvgPool2DJob_Full_Float&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "84b02db545367c257eed04ac17bc8279",
+      "LinkName": "30C3DFEA94D1235F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ExpBiasReduceJob_ActAsFloat_WeightAsHalf, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ExpBiasReduceJob_ActAsFloat_WeightAsHalf&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "a61f3cd62cc32dd96f003294bbe82ebb",
+      "LinkName": "DCBABB59D367080C",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SoftmaxEndJob_ActAsFloat_WeightAsHalf, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SoftmaxEndJob_ActAsFloat_WeightAsHalf&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "81fd8558eedb63c20d2127dccb84e828",
+      "LinkName": "E150025A581FE348",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+LogSoftmaxEndJob_ActAsFloat_WeightAsHalf, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+LogSoftmaxEndJob_ActAsFloat_WeightAsHalf&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "c517b74aa83592fd5f37ca6e778d169d",
+      "LinkName": "8F62CE478EFDC744",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ReduceMaxJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ReduceMaxJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "943f559ef76a0ad8cc3b46518aefacd6",
+      "LinkName": "ED1B524AD71507E4",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ReduceSumJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ReduceSumJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "55d00b675a8d0dab37eb708dd239c1d6",
+      "LinkName": "C95D6FEFA29F7C29",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ReduceMeanJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ReduceMeanJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "272474cdd1e676a77ebbb6dd00015364",
+      "LinkName": "C5277898BC3C4A91",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+ExpBiasReduceJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+ExpBiasReduceJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "2e33efda8e0b3c939eada4faab90a97a",
+      "LinkName": "C325D90A833D6D73",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+SoftmaxEndJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+SoftmaxEndJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "1e1283f18ad8fa73231be15a510457d2",
+      "LinkName": "987072333B78DEC1",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+LogSoftmaxEndJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+LogSoftmaxEndJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "43f1de6b7c0958f8e6217a083de3ce14",
+      "LinkName": "81B125E554EA50C0",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+MaxPool2DJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+MaxPool2DJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "1f090bf267b6753a8256650d2b36af58",
+      "LinkName": "9825EAD4ABC12C70",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+AvgPool2DJob_Full_Half, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+AvgPool2DJob_Full_Half&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "0c87dc3eae0a7bbe49a0cc19aefe6a9d",
+      "LinkName": "C1C3761FE7B65876",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        5,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+MatrixMultiplyJob, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+MatrixMultiplyJob&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "5afe823c6c643e426cf7f4eee9cdaf25",
+      "LinkName": "8D6F6DCD15B44F73",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+MatrixMultiplyLegacyJob, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+MatrixMultiplyLegacyJob&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "6614834615bbfcab2d5f4c0093b3adc6",
+      "LinkName": "7559CF389283A47C",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+MatrixMultiply3x2Job, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+MatrixMultiply3x2Job&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "e7545f64b839a80483ab12436cf18115",
+      "LinkName": "08711C25F6D01B81",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+MatrixMultiply4x4Job, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+MatrixMultiply4x4Job&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "beb75432ab635d27dc3dc3c310b17cf0",
+      "LinkName": "E6E9C25A83341EFD",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+Im2ColSliceJob, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+Im2ColSliceJob&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "f0ccaacaa6d20a87c26d7ea5ebf35fb2",
+      "LinkName": "B824C0B409F58C83",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+LSTMEndJob, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+LSTMEndJob&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "878719c556f21515d8d9abbd43c43774",
+      "LinkName": "BC440973DFB9A5D3",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+LSTMDense3Job, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+LSTMDense3Job&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "0eb497a3b4a3a030769710527a0e1402",
+      "LinkName": "70833780BA34763F",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Barracuda.BurstCPUOps+LSTMDenseJob, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Barracuda.BurstCPUOps+LSTMDenseJob&, Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 2466240655910813423,
+      "ModuleHash": "d44cd08dd3211bf7c05af29c167e0c3b",
+      "LinkName": "5A7B9E078B3B1633",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        2,
+        1
+      ]
+    }
+  ]
+}
