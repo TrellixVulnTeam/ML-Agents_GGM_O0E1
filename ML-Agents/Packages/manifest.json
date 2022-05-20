@@ -5,7 +5,7 @@
     "com.unity.ide.rider": "2.0.7",
     "com.unity.ide.visualstudio": "2.0.14",
     "com.unity.ide.vscode": "1.2.4",
-    "com.unity.ml-agents": "file:D:/GITHUB/ml-agents/com.unity.ml-agents",
+    "com.unity.ml-agents": "2.3.0-exp.2",
     "com.unity.ml-agents.extensions": "file:D:/GITHUB/ml-agents/com.unity.ml-agents.extensions",
     "com.unity.test-framework": "1.1.29",
     "com.unity.textmeshpro": "3.0.6",

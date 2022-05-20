@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.MLAgents;
+using Unity.MLAgents.Actuators;
+using Unity.MLAgents.Sensors;
 
 public class MovetoGoal : Agent {
 
-    [Serializefield] private Transform targetTransform;
+    [SerializeField] private Transform targetTransform;
 
     public override void OnEpisodeBegin()
     {
@@ -15,15 +17,14 @@ public class MovetoGoal : Agent {
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(transform.position);
+        sensor.AddObservation(targetTransform.position);
         sensor.AddObservation(targetTransform.position);
 
 
     }
 
 
-
-    public override void onActionReceived(ActionBuffers actions)
+    public override void OnActionReceived(ActionBuffers actions)
     {
         float moveX = actions.ContinuousActions[0];
         float moveZ = actions.ContinuousActions[1];
