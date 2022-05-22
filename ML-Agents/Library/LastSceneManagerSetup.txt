@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Dodge_MLAGENTS/Dodge_MLAGENTS.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
